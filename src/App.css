@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.avatar {
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 20px; 
+  margin: '2rem';
+  position: relative;
+}
+
+.heading{
+  margin-top: -30px;
+  color: var(--sub-primary-color);
+}
+
+.title-container{
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-container h3 {
+  margin-top: -20px;
+  color: var(--sub-primary-color);
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.s-container {
+  width: 1200px;
+}
+
+button {
+  height: 70px;
+  width: 140px;
+  background-color: var(--sub-primary-color) !important;
+  color: var(--primary-color);
+  border-radius: 50px !important;
+  padding: 0 40px;
+  margin-bottom: 30px;
+}
+
+
+.slide-image {
+  object-fit: cover;
+}
+
+
+.logo-svg {
+  height: 300px;
+}
+
+.text-overlay{
+  background-color: white;
+  color: black;
+  margin-bottom: 10rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 240%);
+  font-size: 16px;
+  border-radius: 20px;
+  height: 75px;
+  width: 180px;
+  padding: 0.1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1px;
+}
+
+.text-overlay .name {
+  font-weight: bold;
+}
+
+.text-overlay-top {
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  transform: translate(-50%, -270%);
+}
+.avatar-container {
+  position: relative;
+}
+
+/* Customize the scrollbar track */
+

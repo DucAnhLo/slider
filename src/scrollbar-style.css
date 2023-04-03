@@ -1,0 +1,12 @@
+.swiper-scrollbar {
+    width: 100px;
+    height: 10px !important;
+    margin-left: 50px !important;
+  }
+  
+  .swiper-scrollbar-drag {
+    background-color: var(--sub-primary-color)!important;
+    opacity: 1;
+    width: 200px !important;
+  }
+  
